@@ -5,7 +5,7 @@ export const handler = async (event) => {
   console.log(event);
   const name = event.queryStringParameters?.name || 'World';
   return {
-    statusCode: 220,
+    statusCode: 22220,
     body: `Hello, ${name}! Welcome to Genezio Functions!`,
   };
 };
